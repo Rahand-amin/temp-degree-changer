@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 10%;
+    align-items: center;
+    justify-content: center;
+    background-color: midnightblue;
+}
+
+#boxa {
+    width: 90%;
+    height: 80%;
+    border: 6px solid rgb(3, 3, 68);
+    border-radius: 20px;
+    padding: 6%;
+    box-shadow: inset 1px 1px 40px 10px snow;
+}
+
+h2 {
+    font-size: 250%;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: goldenrod;
+    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 110%;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 232, 248);
+    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    margin-bottom: 120px;
+}
+
+#f {
+    text-decoration: none;
+    background-color: transparent;
+    border: 4px solid goldenrod;
+    border-radius: 9px;
+    width: 40%;
+    height: 50px;
+    padding: 8px;
+    margin-bottom: 60px;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 130%;
+    font-family: cursive;
+    color: goldenrod;
+    box-shadow: 1px 1px 15px 2px goldenrod;
+    transition: 0.2s;
+}
+
+#f:hover {
+    box-shadow: 0px 0px 0px 0px goldenrod;
+    box-shadow: inset 1px 1px 15px 2px goldenrod;
+}
+
+#dgma {
+    background-color: rgb(0, 232, 248);
+    font-size: 100%;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    box-shadow: inset 1px 1px 15px 1px black;
+
+}
+
+#dgma:hover {
+    box-shadow: inset 0px 0px 0px 0px black;
+    box-shadow: 1px 1px 15px 1px black;
+
+}
+
+#rslt {
+    width: 40%;
+    height: 20%;
+    border: 4px solid goldenrod;
+    border-radius: 15px;
+    padding: 4%;
+    box-shadow: inset 1px 1px 20px 3px goldenrod;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+#nawawa {
+    font-size: 200%;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(0, 255, 255);
+    text-shadow: 3px 3px 5px rgb(229, 255, 0);
+    margin: 1%;
+}
+
+#demo {
+    font-size: 240%;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: goldenrod;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    margin: 11%;
+    border: 3px solid goldenrod;
+    box-shadow: inset 1px 1px 10px 2px goldenrod;
+    border-radius: 13px;
+    width: 85%;
+    padding: 1%;
+}
+
+span {
+    color: gray;
+
+}
